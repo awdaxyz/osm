@@ -4,6 +4,7 @@
   "description": "Simple reverse proxy build with Node.JS and possible to deploy in Vercel",
   "main": "MainApp.js",
   "scripts": {
+    "start": "node Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
