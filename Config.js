@@ -8,7 +8,7 @@ const toList = (value) => value.split(",").map(item => item.trim()).filter(Boole
 module.exports = {
     // IPs of the servers that may be proxied, comma separated (e.g. "1.2.3.4,5.6.7.8").
     // Leave empty to allow any IP (not recommended: anyone can use your proxy).
-    ALLOWED_IPS: toList(process.env.ALLOWED_IPS || "45.142.115.57"),
+    ALLOWED_IPS: toList(process.env.ALLOWED_IPS || "45.142.115.57","127.0.0.1"),
 
     // How the proxy contacts your server: "https" or "http".
     // Leave the port empty to use the default one (443 for https, 80 for http).
